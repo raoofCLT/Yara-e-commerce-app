@@ -45,27 +45,27 @@ export const categories = [
 export const popularProducts = [
     {
         id: 1,
-        img: "/Images/t-shirt.png"
+        img: "/Images/Huddies.png"
     },
     {
         id: 2,
-        img: "/Images/Shirt.png"
-    },
-    {
-        id: 3,
         img: "/Images/Top.png"
     },
     {
+        id: 3,
+        img: "/Images/Shirt.png"
+    },
+    {
         id: 4,
-        img: "/Images/Jacket.png"
+        img: "/Images/Nighty.png"
     },
     {
         id: 5,
-        img: "/Images/GirlDress.png"
+        img: "/Images/T-Shirt.png"
     },
     {
         id: 6,
-        img: "/Images/Tshirt.png"
+        img: "/Images/Shoe.png"
     },
     {
         id: 7,

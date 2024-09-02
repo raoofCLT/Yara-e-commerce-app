@@ -1,7 +1,5 @@
 import styled from "styled-components";
-import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
-import SearchOutlinedIcon from '@mui/icons-material/SearchOutlined';
-import FavoriteBorderOutlinedIcon from '@mui/icons-material/FavoriteBorderOutlined';
+import {ShoppingCartOutlined, SearchOutlined, FavoriteBorderOutlined } from '@mui/icons-material';
 
 
 
@@ -24,7 +22,7 @@ cursor: pointer;
 const Container = styled.div`
 flex:1;
 margin:5px;
-min-width:280px;
+min-width:290px;
 height: 350px;
 display: flex;
 align-items: center;
@@ -77,13 +75,13 @@ const Product = ({item}) => {
             <Image src ={item.img} />
             <Info>
                 <Icon>
-                    <ShoppingCartOutlinedIcon />
+                    <ShoppingCartOutlined />
                 </Icon>
                 <Icon>
-                    <SearchOutlinedIcon />
+                    <SearchOutlined />
                 </Icon>
                 <Icon>
-                    <FavoriteBorderOutlinedIcon  />
+                    <FavoriteBorderOutlined  />
                 </Icon>
             </Info>
         </Container>
