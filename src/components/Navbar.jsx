@@ -1,7 +1,6 @@
 import React from "react"
 import styled from "styled-components"
-import { Search } from "@mui/icons-material"
-import {LocalGroceryStoreOutlined} from '@mui/icons-material';
+import { Search,LocalGroceryStoreOutlined } from "@mui/icons-material"
 import Badge from '@mui/material/Badge';
 import {mobile} from "../responsive"
 

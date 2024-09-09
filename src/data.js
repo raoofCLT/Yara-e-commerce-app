@@ -28,16 +28,19 @@ export const categories = [
         id: 1,
         img: "/Images/Category-1.jpg",
         title: "LIGHT JACKET",
+        cat:"women"
     },
     {
         id: 2,
         img: "/Images/Category-2.jpg",
         title: "SHIRT STYLE",
+        cat:"shirt"
     },
     {
         id: 3,
         img: "/Images/Category-3.jpg",
         title: "LOUNGWEAR LOVE",
+        cat:"t-shirt"
     }
 ]
 
