@@ -5,6 +5,8 @@ import Newsletter from "../components/Newsletter"
 import Footer from "../components/Footer"
 import { Add, Remove } from "@mui/icons-material"
 import {mobile} from "../responsive"
+import { useLocation } from "react-router-dom";
+import { useEffect, useState } from "react";
 
 
 const Container = styled.div``
@@ -113,6 +115,21 @@ font-weight: 500;
 
 
 const Product = () => {
+    const location = useLocation()
+    const id = location.pathname.split("/")[2]
+    const [product, setProduct] = useState({})
+
+    useEffect(()=>{
+        const getProducts = async () => {
+            try{
+
+            }catch{
+                
+            }
+        }
+    })
+    
+
   return (
     <Container>
       <Navbar />
